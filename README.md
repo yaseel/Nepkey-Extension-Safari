@@ -25,8 +25,7 @@ Anyone can install it for free using Xcode and a normal Apple ID.
 
 ## 1. Clone the project
 ```
-git clone https://github.com/yourusername/NepKey.git
-cd NepKey
+git clone https://github.com/yaseel/NepKey-Extension-Safari.git
 ```
 
 Or download the ZIP and unzip it.
@@ -37,33 +36,26 @@ Or download the ZIP and unzip it.
 Double-click:
 
 ```
-NepKey.xcodeproj
+Nepkey-Extension-Safari.xcodeproj
 ```
 
 ---
 
-## 3. Select the macOS App target
-Top-left scheme selector → choose:
-
-**NepKey (macOS App)**
-
----
-
-## 4. Fix signing (one-time)
-1. Click project in sidebar  
-2. Select **NepKey** app target  
+## 3. Fix signing (one-time)
+1. Click Nepkey-Extension-Safari in sidebar  
+2. Select **Nepkey-Extension-Safari Extension** app target  
 3. Open **Signing & Capabilities**  
 4. Under **Team**, choose your Apple ID (Personal Team)
 
 ---
 
-## 5. Press Run
+## 4. Press Run
 Click **▶ Run** in Xcode.  
 Safari will detect the extension.
 
 ---
 
-## 6. Enable in Safari
+## 5. Enable in Safari
 Safari popup → **Allow** → **Turn On**
 
 The extension stays installed.
@@ -110,8 +102,7 @@ Bárki telepítheti ingyen, csak Xcode és egy Apple ID kell.
 
 ## 1. Projekt letöltése
 ```
-git clone https://github.com/yourusername/NepKey.git
-cd NepKey
+git clone https://github.com/yaseel/NepKey-Extension-Safari.git
 ```
 
 ---
@@ -120,32 +111,26 @@ cd NepKey
 Dupla katt:
 
 ```
-NepKey.xcodeproj
+Nepkey-Extension-Safari.xcodeproj
 ```
 
 ---
 
-## 3. macOS App target kiválasztása
-Bal felső sarok:
-
-**NepKey (macOS App)**
-
----
-
-## 4. Aláírás beállítása
-1. Projekt → **NepKey** target  
+## 3. Aláírás beállítása
+1. Kattints Nepkey-Extension-Safari -ra a bal oldalon  
+1. Kattints a **Nepkey-Extension-Safari Extension** targetre
 2. **Signing & Capabilities**  
 3. **Team** → saját Apple ID
 
 ---
 
-## 5. Futtatás
+## 4. Futtatás
 Nyomj **▶ Run**-t.  
 Safari érzékeli az extensiont.
 
 ---
 
-## 6. Engedélyezés Safariban
+## 5. Engedélyezés Safariban
 Popup → **Allow** → **Turn On**
 
 ---
